@@ -1,0 +1,222 @@
+body{
+     background: url("../images/faded-gray-background-with-paint-brush-texture.jpg");
+    font-family:"Poppins", sans-serif ;
+    }
+
+    .home-btn{
+        margin-top: 50px;
+    }
+    .btn-login{
+        margin-left: 100px;
+        border: 3px solid #FC6D6D;;
+        width: 90px;
+        height: 40px;
+        font-size: 35px;
+        border-radius: 2px;
+        text-align: center;
+        padding-top:1px;
+        padding-left: 15px;
+        padding-bottom:2px;
+        padding-right: 15px;
+    color: #FC6D6D;
+    text-decoration: none;
+;
+
+    }
+    .btn-register{
+        margin-left: 20px;
+        border: 3px solid #FC6D6D;;
+        width: 90px;
+        height: 40px;
+        font-size: 35px;
+        border-radius: 2px;
+        text-align: center;
+        padding-top:1px;
+        padding-left: 15px;
+        padding-bottom:2px;
+        padding-right: 15px;
+    color: #FC6D6D;
+    text-decoration: none;
+;
+
+    }
+    .btn-login:hover{
+        color:#FC6D6D;
+    }
+    .btn-register:hover{
+        color:#FC6D6D;
+    }
+.homepage{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.wrapper{
+    display: inline-flex;
+}
+.static-txt{
+    color:rgb(28, 27, 27);
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+overflow: hidden;
+}
+.dynamic-txts li{
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top:0;
+    animation: slide 3s steps(2) infinite;
+}
+.dynamic-txtss li{
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top:0;
+    animation: slide 3s steps(1) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -180px;
+    }
+}
+.dynamic-txts li span{
+    position:relative;
+}
+.dynamic-txts li span::after {
+    content: "";
+    position:absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e1e1e1;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 1.5s steps(8) infinite;
+}
+.dynamic-txtss li span::after {
+    content: "";
+    position:absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e1e1e1;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(20) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+.logo{
+    width: 50px;
+    background-color: aliceblue;
+}
+.bold-black{
+    color: black;
+    font-weight: bold;
+}
+.circle{
+    border-radius: 50%;
+    height: 290px;
+}
+.banner-wrapper{
+ width: 100%;
+
+}
+.detail{
+    margin-left: 200px;
+}
+.team{
+    display: flex;
+    width:50%;
+    height: 600px;
+    background-color: rgb(64, 82, 88);
+    padding: 5px;
+    border-radius: 10px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+
+}
+.employer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:560px;
+    height: 600px;
+    background-color: rgb(19, 75, 94);
+    padding: 5px;
+    border-radius: 10px;
+    color: azure;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+
+}
+.add-button{
+    display:flex;
+    justify-content: center;
+    border: 2px solid rgb(8, 180, 48);
+    color: rgb(8, 180, 48);
+    width: 130px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    margin:5px;
+    margin-left: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button-edit{
+    border: 2px solid rgb(8, 180, 48);
+    color: rgb(8, 180, 48);
+    width: 70px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    margin:5px;
+    margin-left: 50px;
+}
+.button-del{
+    border: 2px solid rgb(227, 61, 61);
+    color: rgb(227, 61, 61);
+    width: 70px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: large;
+    text-decoration: none;
+    margin:5px;
+    margin-left: 5px;
+}
+
+.navd{
+    color: white;
+margin-left: 150px;
+text-decoration: none;
+}
+.navs{
+    text-decoration: none;
+    color: white;
+}
+.navs:hover{
+    color: white;
+}
