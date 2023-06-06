@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Front-endproject/static/css/main.23afd470.css",
+    "main.js": "/Front-endproject/static/js/main.fd8b5c99.js",
+    "static/js/787.d3befce1.chunk.js": "/Front-endproject/static/js/787.d3befce1.chunk.js",
+    "static/media/faded-gray-background-with-paint-brush-texture.jpg": "/Front-endproject/static/media/faded-gray-background-with-paint-brush-texture.6cf6afe54fa8b845d958.jpg",
+    "static/media/Register-removebg-preview.png": "/Front-endproject/static/media/Register-removebg-preview.c95c1c5599b73bd6fbb0.png",
+    "static/media/welcome-removebg-preview.png": "/Front-endproject/static/media/welcome-removebg-preview.2481c2b1885d78ba62b1.png",
+    "index.html": "/Front-endproject/index.html",
+    "main.23afd470.css.map": "/Front-endproject/static/css/main.23afd470.css.map",
+    "main.fd8b5c99.js.map": "/Front-endproject/static/js/main.fd8b5c99.js.map",
+    "787.d3befce1.chunk.js.map": "/Front-endproject/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23afd470.css",
+    "static/js/main.fd8b5c99.js"
+  ]
+}
